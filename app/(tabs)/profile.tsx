@@ -4,7 +4,7 @@ import { useCats } from "@/contexts/CatsContext";
 import { StyleSheet } from "react-native";
 
 export default function ProfileScreen() {
-  const { cats, loading, likedCats, dislikedCats } = useCats();
+  const { likedCats, dislikedCats } = useCats();
 
   return (
     <ThemedView style={styles.container}>
