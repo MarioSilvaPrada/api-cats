@@ -34,7 +34,7 @@ export default function ProfileScreen() {
 
           <ThemedView style={styles.statCard}>
             <ThemedText style={styles.statNumber}>
-              {loading ? "..." : cats.length}
+              {loading ? "..." : likedCats.length + dislikedCats.length}
             </ThemedText>
             <ThemedText style={styles.statLabel}>
               Total Cats Viewed 👀
